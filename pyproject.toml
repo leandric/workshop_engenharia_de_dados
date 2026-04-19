@@ -1,0 +1,13 @@
+[project]
+name = "workshop-engenharia-de-dados"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14.4"
+dependencies = [
+    "fsspec>=2026.3.0",
+    "paramiko>=4.0.0",
+    "polars>=1.40.0",
+    "sqlalchemy>=2.0.49",
+    "xlsxwriter>=3.2.9",
+]

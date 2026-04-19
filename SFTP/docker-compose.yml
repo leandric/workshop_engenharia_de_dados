@@ -1,0 +1,13 @@
+services:
+  sftp:
+    build: .
+    container_name: sftp-server
+    ports:
+      - "2222:22"
+    volumes:
+      - sftp_data:/home/teste/upload
+    restart: unless-stopped
+
+volumes:
+  sftp_data:
+    name: sftp_data
